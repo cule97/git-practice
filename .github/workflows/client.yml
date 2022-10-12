@@ -32,4 +32,4 @@ jobs:
             --region ap-northeast-2 \
             build s3://fe-86-cule97 \
             --delete
-        working-directory: s3://fe-86-cule97
+        working-directory: "build"
